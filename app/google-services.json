@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "842713846469",
+    "project_id": "bootcampandroid-e4449",
+    "storage_bucket": "bootcampandroid-e4449.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842713846469:android:b131492ec81cc0453c16ac",
+        "android_client_info": {
+          "package_name": "com.example.bootcampsatu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842713846469-s7l21bj375ooco8m28s3eemdneriakkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDCnBdEHBVWNtwFwW5Ym6LsVVig5VE9P4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842713846469-s7l21bj375ooco8m28s3eemdneriakkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

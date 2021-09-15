@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BootcampSatu/app/src/main/res/layout/activity_auth.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BootcampSatu/app/src/main/res/layout/activity_checkout.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BootcampSatu/app/src/main/res/layout/activity_login.xml" value="0.13360507246376813" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BootcampSatu/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BootcampSatu/app/src/main/res/layout/activity_order.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BootcampSatu/app/src/main/res/layout/fragment_login.xml" value="0.176" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BootcampSatu/app/src/main/res/layout/fragment_register.xml" value="0.25052083333333336" />
       </map>
     </option>
   </component>

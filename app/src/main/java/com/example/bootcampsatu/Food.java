@@ -3,15 +3,13 @@ package com.example.bootcampsatu;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import java.util.ArrayList;
-
 public class Food implements Parcelable {
-    private int foodImage;
+    private String foodImage;
     private String foodName;
     private String foodAddress, sizes, sauces;
     private float foodPrice;
 
-    public Food(int foodImage, String foodName, String foodAddress, float foodPrice, String sauces, String sizes) {
+    public Food(String foodImage, String foodName, String foodAddress, float foodPrice, String sauces, String sizes) {
         this.foodImage = foodImage;
         this.foodName = foodName;
         this.foodAddress = foodAddress;
@@ -21,13 +19,15 @@ public class Food implements Parcelable {
     }
 
     protected Food(Parcel in) {
-        foodImage = in.readInt();
+        foodImage = in.readString();
         foodName = in.readString();
         foodAddress = in.readString();
         sizes = in.readString();
         sauces = in.readString();
         foodPrice = in.readFloat();
     }
+
+    public Food(){}
 
     public static final Creator<Food> CREATOR = new Creator<Food>() {
         @Override
@@ -41,7 +41,7 @@ public class Food implements Parcelable {
         }
     };
 
-    public int getFoodImage() {
+    public String getFoodImage() {
         return foodImage;
     }
 
@@ -72,7 +72,7 @@ public class Food implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel parcel, int i) {
-        parcel.writeInt(foodImage);
+        parcel.writeString(foodImage);
         parcel.writeString(foodName);
         parcel.writeString(foodAddress);
         parcel.writeString(sizes);

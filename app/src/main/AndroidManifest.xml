@@ -10,13 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BootcampSatu">
         <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OrderActivity"
+            android:exported="true" />
+        <activity
             android:name=".CheckoutActivity"
             android:exported="true" />
         <activity
             android:name=".LoginActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".AuthActivity"
+            android:theme="@style/Theme.BootcampSatu.NoActionBar"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
